@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --dropdownColor: #48bb78;
+  --primaryColor: black;
+  --secondaryColor: rgb(216, 214, 214);
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  font-family: 'DM Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondaryColor);
+
+}
+
+#root {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+
+input, button {
+  font-family: 'DM Sans';
+}

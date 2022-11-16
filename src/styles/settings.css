@@ -1,0 +1,70 @@
+.settings {
+    display: flex;
+    flex-grow: 100;
+    width: 70%;
+    flex-direction: column;
+}
+
+.settings-title {
+    color: var(--primaryColor);
+    font-weight: 500;
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-size: 24px;
+    border-bottom: 0.5px solid rgba(82, 82, 82, 0.28);
+}
+
+.settings div h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid rgba(80, 80, 80, 0.28);
+}
+
+.settings-fields-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.settings-fields-container .field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: 0.5px solid rgba(61, 61, 61, 0.28);
+}
+
+.settings-fields-container .field .icon {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.settings-fields-container input {
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    color: #000000;
+    width: 90%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.settings-fields-container input:focus-visible {
+    outline: none;
+}
+
+.settings-fields-container .field {
+    padding: 10px 5px;
+}
+
+.settings-fields-container .field p {
+    width: 90%;
+    color: #000000;
+
+}
