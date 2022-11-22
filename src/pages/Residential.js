@@ -85,7 +85,7 @@ const Residential = () => {
     return (
       <div className="" >
   
-        <div className="table-header" style={{ width: "850px" }}>
+        <div className="table-header" style={{ width: "1000px" }}>
           <h2>Residential Code</h2>
   
           <div className="container">
@@ -128,6 +128,15 @@ const Residential = () => {
                     <option value="grounding" >Grounding</option>
                     <option value="service_and_feeder_load_calculations">Service & feeder load calc.</option>
                     <option value="temporary_wiring">Temporary wiring</option>
+                    <option value="boxes_and_enclosures" >Boxes & Enclosures</option>
+                    <option value="cable_and_raceways">Cable & Raceways</option>
+                    <option value="appliances">Appliances</option>
+                    <option value="emergency_system_installs" >Emergency System Installs</option>
+                    <option value="switches_and_lighting">Switches and Lighting</option>
+                    <option value="circuit_feeders_and_services">Circuit Feeders & Services</option>
+                    <option value="disconnect_switchboard_panelboards" >Disconnects / Switchboards / Panelboards</option>
+                    <option value="overcurrent_protection">Overcurrent Protection</option>
+                    <option value="wiring-methods_or_conductors">Wiring Methods / Conductors</option>
                     
                   </select>
   
@@ -243,6 +252,15 @@ const Residential = () => {
                    <option value="grounding" >Grounding</option>
                     <option value="service_and_feeder_load_calculations">Service & feeder load calc.</option>
                     <option value="temporary_wiring">Temporary wiring</option>
+                     <option value="boxes_and_enclosures" >Boxes & Enclosures</option>
+                    <option value="cable_and_raceways">Cable & Raceways</option>
+                    <option value="appliances">Appliances</option>
+                    <option value="emergency_system_installs" >Emergency System Installs</option>
+                    <option value="switches_and_lighting">Switches and Lighting</option>
+                    <option value="circuit_feeders_and_services">Circuit Feeders & Services</option>
+                    <option value="disconnect_switchboard_panelboards" >Disconnects / Switchboards / Panelboards</option>
+                    <option value="overcurrent_protection">Overcurrent Protection</option>
+                    <option value="wiring-methods_or_conductors">Wiring Methods / Conductors</option>
                     
                 </select>
   

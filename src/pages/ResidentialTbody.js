@@ -63,7 +63,7 @@ export default function ResidentialTbody(props) {
 
      
         <td>{props.date}</td>
-        <td>{props.title}</td>
+        <td className="">{props.title}</td>
         
         <td>
           <div className="flex justify-center gap-2">
@@ -131,8 +131,8 @@ export default function ResidentialTbody(props) {
                       type="text"
                       name="subcategory"
                       id="subcategory"
-                      class="bg-gray-50 border  border-gray-300 mt-3 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-20 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                      placeholder={props.subcategories}
+                      class="bg-gray-50 border  border-gray-300 mt-3 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-20 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white "
+                      placeholder={props.title}
                       required=""
                     />
          
