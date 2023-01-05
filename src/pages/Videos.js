@@ -69,9 +69,9 @@ const Videos = (props) => {
   // const addvideoref = collection(db, videolocation.length === 0 ? `categories/blue_prints/subCategories/UIwPnumkhBfZzZNkciNm/Parts` : `categories/${location}/subCategories/${videolocation}/Parts`);
 
   
-  const getVideo = async (loc1,loc) => {
-    console.log(loc)
-    const addvideoref1 = collection(db, loc.length === 0 ? `categories/commercial_installs/subCategories/CYrNdifOMmj4mOPMQ3nN/Parts` : `categories/${loc1}/subCategories/${loc}/Parts`);
+  const getVideo = async (location,loc) => {
+    console.log(location,loc)
+    const addvideoref1 = collection(db, location.length === 0 && loc.length === 0 ? `categories/commercial_installs/subCategories/CYrNdifOMmj4mOPMQ3nN/Parts` : `categories/${location}/subCategories/${loc}/Parts`);
     
     const getData = await getDocs(addvideoref1);
 
@@ -148,7 +148,7 @@ const Videos = (props) => {
     }
     else{
      
-      getVideo(loc,"CYrNdifOMmj4mOPMQ3nN")
+      getVideo(location,"CYrNdifOMmj4mOPMQ3nN")
      
     }
     
@@ -250,8 +250,8 @@ const Videos = (props) => {
                    
                       setvideoLocation(e.target.value);
                       localStorage.setItem('vlocation',e.target.value);
-                      getVideo(e.target.value.toString())
-                      // console.log(location)
+                      getVideo(location,e.target.value.toString())
+                      // console.log(getVideo)
                     
                   }}
                 >
